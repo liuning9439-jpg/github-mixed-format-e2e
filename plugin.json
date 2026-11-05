@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "github-mixed-format-e2e",
+  "version": "1.0.0",
+  "description": "github mixed AgentPlugin and legacy vendor fixture.",
+  "author": {
+    "name": "AgentPlugin Test"
+  },
+  "keywords": [
+    "agentplugin",
+    "compatibility",
+    "mixed",
+    "e2e"
+  ],
+  "extensions": {
+    "com.bytedance.agentplugin-test": {
+      "kind": "mixed",
+      "fixtureVersion": "1.0.0"
+    }
+  }
+}
